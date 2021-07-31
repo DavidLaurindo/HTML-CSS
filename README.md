@@ -18,3 +18,4 @@ id (h1 id="identificador-unico") - não pode repetir o id.
 chamada no css: #identificador-unico {}
 
 Classe (h1 id="identificador-unico" class="identificador") - pode repetir a classe como também pode usar junto com id caso precise. Também pode usar mais de uma classe ex: (class="borda-1 borda-2").
+chamada no css: .identificador {}
