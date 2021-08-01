@@ -6,7 +6,6 @@ Live Server(Abri um server local). Para ativar:(Crlt + Shift + P para abrir o te
 
 Todas as TAGs do HTML: https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
 
-<pre>
 Ctrl + Shift + i (formatar o documento HTML).
 
 inline e block:
@@ -74,4 +73,3 @@ chamada no css: #identificador-unico {}
 
 Classe (h1 id="identificador-unico" class="identificador") - pode repetir a classe como também pode usar junto com id caso precise. Também pode usar mais de uma classe ex: (class="borda-1 borda-2").
 chamada no css: .identificador {}
-</pre>
