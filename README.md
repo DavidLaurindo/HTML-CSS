@@ -6,6 +6,8 @@ Live Server(Abri um server local). Para ativar:(Crlt + Shift + P para abrir o te
 
 Todas as TAGs do HTML: https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
 
+Validador: https://validator.w3.org/#validate_by_input
+
 Ctrl + Shift + i (formatar o documento HTML).
 
 inline e block:
