@@ -8,6 +8,8 @@ Todas as TAGs do HTML: https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
 
 Validador: https://validator.w3.org/#validate_by_input
 
+Box Model Resumido: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model
+
 Ctrl + Shift + i (formatar o documento HTML).
 
 inline e block:
