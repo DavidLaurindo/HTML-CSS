@@ -83,3 +83,9 @@ ____________________________________________________________________________
 # CSS
 
 border(tamanho, cor e estilo da borda) ex: border: 15px solid black;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
