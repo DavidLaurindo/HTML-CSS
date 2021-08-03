@@ -78,7 +78,47 @@ chamada no css: #identificador-unico {}
 Classe (h1 id="identificador-unico" class="identificador") - pode repetir a classe como também pode usar junto com id caso precise. Também pode usar mais de uma classe ex: (class="borda-1 borda-2").
 chamada no css: .identificador {}
 
+### Listas:
 
+<ul>Lista não ordenada</ul>
+<ol>Lista ordenada</ol>
+<li>itens de lista</li>
+
+<dl>Lista com descrição</dl>
+<dt>Itens</dt>
+<dd>descrição do item</dd>
+
+<ul>
+  <li>item 01</li>
+  <li>item 02</li>
+  <li>item 03</li>
+</ul>
+
+<ol>
+  <li>item 01</li>
+  <li>item 02</li>
+  <li>item 03</li>
+</ol>
+<ol type="A"></ol> (muda de números ordenados para A, B, C...)
+
+<dl>
+  <dt>café</dt>
+  <dd>bebida preta quente</dd>
+  <dt>Cerveja</dt>
+  <dd>bebida alcolica</dd>
+</dl>
+
+### Tabelas:
+
+<table>Tabelas</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Título 1</th>
+    </tr>
+  </thead>
+</table>
 ____________________________________________________________________________
 # CSS
 
@@ -89,3 +129,9 @@ border(tamanho, cor e estilo da borda) ex: border: 15px solid black;
     padding: 0;
     box-sizing: border-box;
 }
+
+Remover sublinhado de link:
+ text-decoration: none;
+
+Fonte de todos os sistemas operacionais:
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
