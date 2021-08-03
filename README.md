@@ -130,7 +130,13 @@ https://developer.mozilla.org/pt-BR/docs/Learn/Forms/How_to_structure_a_web_form
 <form>Formulário</form>
 O elemento <form> é o elemento que formalmente define o formulário e os atributos que definem a maneira como esse formulário se comporta. Sempre que você desejar criar um formulário HTML, você deve iniciá-lo usando este elemento, colocando todo o conteúdo dentro deste. Muitas tecnologias assistivas ou plugins de navegadores são capazes de descobrir elemetos <form> e de implementar ganchos especiais para torná-los mais fáceis de usar.
 
+Nota: É estritamente proíbido aninhar um formulário dentro de outro formulário. Isto pode fazer com que os formulários se comportem de maneira imprevisível baseada no navegador que está sendo utilizado.
 
+<form action="#" method="get" target="_blanck" autocomplete="off">
+
+</form>
+(autocomplete="off" usado para nao aparecer histórico do que foi escrito no formulário).
+(target="_blank" para ele enviar o formulário para outra página. obs: para facilitar o entendimento no curso).
 ____________________________________________________________________________
 # CSS
 
