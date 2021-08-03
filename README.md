@@ -126,6 +126,11 @@ Links para estruturação de formulários e todos os tipos de INPUTS:
 https://www.w3schools.com/html/html_form_input_types.asp
 
 https://developer.mozilla.org/pt-BR/docs/Learn/Forms/How_to_structure_a_web_form
+
+<form>Formulário</form>
+O elemento <form> é o elemento que formalmente define o formulário e os atributos que definem a maneira como esse formulário se comporta. Sempre que você desejar criar um formulário HTML, você deve iniciá-lo usando este elemento, colocando todo o conteúdo dentro deste. Muitas tecnologias assistivas ou plugins de navegadores são capazes de descobrir elemetos <form> e de implementar ganchos especiais para torná-los mais fáceis de usar.
+
+
 ____________________________________________________________________________
 # CSS
 
