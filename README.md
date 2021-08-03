@@ -119,6 +119,13 @@ chamada no css: .identificador {}
     </tr>
   </thead>
 </table>
+
+## Formulários:
+
+Links para estruturação de formulários:
+https://www.w3schools.com/html/html_form_input_types.asp
+
+https://developer.mozilla.org/pt-BR/docs/Learn/Forms/How_to_structure_a_web_form
 ____________________________________________________________________________
 # CSS
 

@@ -12,7 +12,7 @@
         }
         table{
             border-collapse: collapse;
-            width: 100%
+            width: 800px
         ;
         }
         table td, table th{
@@ -30,15 +30,20 @@
         tfoot td{
             background-color: seagreen;
         }
+        .tabela-responsiva{
+            max-width: 100%;
+            overflow-x: auto;
+        }
     </style>
 </head>
 <body>
     <p>Lorem ipsum dolor, sit amet</p>
+    <div class="tabela-responsiva">
     <table>
         <caption>Uma descrição da tabela</caption>
         <thead>
             <tr>
-              <th>Título 1</th>
+              <th>Título 1 Testando a responsividade da tabela com textos longos</th>
               <th>Título 2</th>
               <th>Título 3</th>
             </tr>
@@ -61,11 +66,11 @@
           </tbody>
           <tfoot>
             <tr>
-                <td>corpo 1</td>
-                <td>corpo 2</td>
-                <td>corpo 3</td>
+                <td colspan="2" rowspan="2"></td>
+                <td rowspan="2">Total: 1.500,00</td>
             </tr>
           </tfoot>
     </table>
+    </div>
 </body>
 </html>
