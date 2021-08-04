@@ -137,6 +137,8 @@ Nota: É estritamente proíbido aninhar um formulário dentro de outro formulár
 </form>
 (autocomplete="off" usado para nao aparecer histórico do que foi escrito no formulário).
 (target="_blank" para ele enviar o formulário para outra página. obs: para facilitar o entendimento no curso).
+
+<input type="text"> (não precisa fechar).
 ____________________________________________________________________________
 # CSS
 
