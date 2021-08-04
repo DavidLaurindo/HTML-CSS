@@ -151,7 +151,31 @@ Nota: É estritamente proíbido aninhar um formulário dentro de outro formulár
 <input type="checkbox" id="dev" name="dev" value="sim" checked>
 (values="sim" valor a ser enviado para back-end).
 (checked já deixa a checkbox marcada por padrão).
-____________________________________________________________________________
+
+                <p>
+                    Gênero:<br>
+                    <label for="feminino">feminino</label>  
+                    <input type="radio" id="feminino" name="genero" value="feminino"><br>
+                    <label for="dev">masculino</label>  
+                    <input type="radio" id="masculino" name="genero" value="masculino"><br>
+                    <label for="outro">outro</label>  
+                    <input type="radio" id="outro" name="genero" value="outro"><br>
+                </p> (utilizando radio)
+                
+<p>
+  <label for="file">Sua Foto:</label>  
+  <input type="file" id="file" name="file"
+   accept=".png, .svg, image/*" multiple> (accept="" arquivos que irá aceitar).
+   (multiple quer dizer que vai aceitar vários arquivos).
+</p>                
+
+ <p>
+   <label for="number">Number:</label>  
+   <input type="number" id="number" name="number" placeholder="Number"    min="10" max="50" step="5">
+</p>   
+(min e max correspondem ao máximo permitido de números)
+(step é qm quantos e quantos números irá andar).            
+                _________________________________________________
 # CSS
 
 border(tamanho, cor e estilo da borda) ex: border: 15px solid black;
