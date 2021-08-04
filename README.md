@@ -138,7 +138,19 @@ Nota: É estritamente proíbido aninhar um formulário dentro de outro formulár
 (autocomplete="off" usado para nao aparecer histórico do que foi escrito no formulário).
 (target="_blank" para ele enviar o formulário para outra página. obs: para facilitar o entendimento no curso).
 
-<input type="text"> (não precisa fechar).
+<input type="text" id="nome-campo" name="nome" placeholder="Seu nome" desabled/readonly requered> (não precisa fechar).
+(name="" vai ser usado no back-end)
+(placeholder="seu nome" vai aparecer como exemplo no formulário).
+(desabled para desabilitar o input).
+(readonly somente leitura do placeholder e mantem desabilitado o input).
+(requered obriga o usuário a marcar ou responder o input).
+
+<button type="submit">Enviar</button> (enviar formulário).
+<button type="reset">Reset</button> (resetar formulário).
+
+<input type="checkbox" id="dev" name="dev" value="sim" checked>
+(values="sim" valor a ser enviado para back-end).
+(checked já deixa a checkbox marcada por padrão).
 ____________________________________________________________________________
 # CSS
 
