@@ -203,3 +203,14 @@ Remover sublinhado de link:
 
 Fonte de todos os sistemas operacionais:
  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+#### Alguns seletores de atributo:
+ .pai h1+p{
+    color: red;
+}(Adjacent sibling select. usar o + para selecionar"!ver a documentação")
+(seleciona o <p> que vem logo depois do h1).
+
+.pai h1~p{
+    color: red;
+}(gerenal sibling select).
+(Seleciona todos os <p> que vem depois do h1)
