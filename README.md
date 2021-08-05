@@ -178,6 +178,8 @@ Nota: É estritamente proíbido aninhar um formulário dentro de outro formulár
                 _________________________________________________
 # CSS
 
+link CSS: <link rel="stylesheet" href="./assets/css/style.css">
+
 border(tamanho, cor e estilo da borda) ex: border: 15px solid black;
 
 *{
