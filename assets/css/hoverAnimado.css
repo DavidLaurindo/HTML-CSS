@@ -11,3 +11,34 @@
 .heading{
     display: inline;
 }
+a{
+    color: orchid;
+}
+a:link{
+    color: palegreen;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    background: yellowgreen;
+    color: white;
+    text-decoration: none;
+}
+a:active{/*quando estiver clicado*/
+    background: darkmagenta;
+    color: darkorchid;
+    text-decoration: none;
+}
+input:focus{
+    box-shadow: 0 0 5px; rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: 1px solid black;
+}
+input:disabled{
+    background-color: brown;
+    cursor: not-allowed;
+}
+input:checked + p{
+    background-color: burlywood;
+}
