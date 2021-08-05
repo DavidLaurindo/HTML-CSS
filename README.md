@@ -10,6 +10,8 @@ Validador: https://validator.w3.org/#validate_by_input
 
 Box Model Resumido: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model
 
+Pseudo-classes: https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes
+
 Ctrl + Shift + i (formatar o documento HTML).
 
 inline e block:
@@ -214,3 +216,11 @@ Fonte de todos os sistemas operacionais:
     color: red;
 }(gerenal sibling select).
 (Seleciona todos os <p> que vem depois do h1)
+
+fade in out no :hover
+.heading{
+    transition: all 600ms ease-in-out;
+}
+.heading:hover{
+    background: blue;
+}(pequena animação)
