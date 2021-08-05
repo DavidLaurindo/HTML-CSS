@@ -180,6 +180,11 @@ Nota: É estritamente proíbido aninhar um formulário dentro de outro formulár
 
 link CSS: <link rel="stylesheet" href="./assets/css/style.css">
 
+pode selecionar mais de uma tag por seleção:
+h1, p{
+  font-samily: #
+}
+
 *{
     margin: 0;
     padding: 0;
