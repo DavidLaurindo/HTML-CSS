@@ -82,6 +82,9 @@ chamada no css: .identificador {}
 
 ### Listas:
 
+li*4(cria 4 itens automaticamente).
+li*quantas linhas da tabela.
+
 <ul>Lista não ordenada</ul>
 <ol>Lista ordenada</ol>
 <li>itens de lista</li>

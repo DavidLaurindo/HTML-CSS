@@ -14,3 +14,6 @@ a{
 a:link{
     color: chartreuse;
 }
+.pai .lista li:first-child{
+    background: cadetblue;
+}
