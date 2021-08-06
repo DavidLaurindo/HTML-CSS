@@ -250,3 +250,20 @@ ul li:nth-child(3n+5){/*a partir do quinto filho vai começar a contagem de 3 em
 nth-child()
 link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child
 --------------------------------------------------------------------------
+Pseudo-elementos
+link:https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elements
+
+----------------------------------------------------------------------------
+### Especificidade
+
+Prioridades:
+1: ID
+2: CLASSES, ATRIBUTOS E PSEUDO-CLASSES
+3: ELEMENTOS E PSEUDO-ELEMENTOS
+
+links:
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity
+
+https://www.w3.org/TR/selectors-3/#specificity
+
+https://specificity.keegan.st/

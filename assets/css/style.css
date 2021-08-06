@@ -2,15 +2,6 @@
     margin: 0;
     padding: 0;
 }
-ul li:nth-child(even){/*seleciona somente filhos pares*/
-    background-color: chartreuse;
-}
-ul li:nth-child(odd){/*seleciona todos os ímpares*/
-    background-color: crimson;
-}
-ul li:nth-child(3n){/*vai acionar a cada 3 filhos*/
-    background-color: darkmagenta;
-}
-ul li:nth-child(3n+5){/*a partir do quinto filho vai começar a contagem de 3 em 3*/
-    background-color: darksalmon;
-}
+/*
+Especificidade: ID / CLASSES, ATRIBUTOS E PSEUDO-CLASSES / ELEMENTOS E PSEUDO-ELEMENTOS
+*/

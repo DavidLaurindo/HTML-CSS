@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li::before{/*before ou after*/
+    content:' - ';
+    background: red;
+    color: rosybrown;
+    display: block;
+}
+p::first-letter{/*primeira letra do <p>*/
+    font-size: 50px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+p::first-line{/*seleciona a primeira linha*/
+    background: yellowgreen;
+}
+p::selection{/*ao selecionar*/
+    background: black;
+    color: white;
+}
+.caixa-input::placeholder{/*edita o placeholder*/
+    color: red;
+}
