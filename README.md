@@ -227,3 +227,9 @@ fade in out no :hover
 .heading:hover{
     background: blue;
 }(pequena animação)
+
+p:not(.meio){
+    color: blue;
+}(negação, todos os <p> do html menos o que estiver a classe .meio).
+Link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/:not
+
