@@ -219,7 +219,7 @@ Fonte de todos os sistemas operacionais:
     color: red;
 }(gerenal sibling select).
 (Seleciona todos os <p> que vem depois do h1)
-
+---------------------------------------------------------------
 fade in out no :hover
 .heading{
     transition: all 600ms ease-in-out;
@@ -227,9 +227,26 @@ fade in out no :hover
 .heading:hover{
     background: blue;
 }(pequena animação)
-
+------------------------------------------------------------
 p:not(.meio){
     color: blue;
 }(negação, todos os <p> do html menos o que estiver a classe .meio).
 Link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/:not
 
+---------------------------------------------------------------------------
+ul li:nth-child(even){/*seleciona somente filhos pares*/
+    background-color: chartreuse;
+}
+ul li:nth-child(odd){/*seleciona todos os ímpares*/
+    background-color: crimson;
+}
+ul li:nth-child(3n){/*vai acionar a cada 3 filhos*/
+    background-color: darkmagenta;
+}
+ul li:nth-child(3n+5){/*a partir do quinto filho vai começar a contagem de 3 em 3*/
+    background-color: darksalmon;
+}
+
+nth-child()
+link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child
+--------------------------------------------------------------------------
