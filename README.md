@@ -267,3 +267,10 @@ https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity
 https://www.w3.org/TR/selectors-3/#specificity
 
 https://specificity.keegan.st/
+
+----------------------------------------------------------------------------
+
+p{
+  font-size: inherit; (Para herdar os atributos)
+  color: initial; (para não herdar)
+}
