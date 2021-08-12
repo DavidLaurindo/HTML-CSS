@@ -20,6 +20,8 @@ inline e block:
 ## Tags
 <p>Parágrafo</p>
 
+<div></div> vem como display block com padrão.
+
 <code>mostrar código</code>
 
 <pre>mostra do mesmo jeito que esta escrito<pre> (usada também para mostrar código).
