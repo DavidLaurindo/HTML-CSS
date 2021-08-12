@@ -187,6 +187,24 @@ Nota: É estritamente proíbido aninhar um formulário dentro de outro formulár
 
 link CSS: <link rel="stylesheet" href="./assets/css/style.css">
 
+display: inline; não pega certos atributos ex: width, height.
+
+overflow: hidden;(ex: impede que o texto saia do conteúdo)
+overflow: scroll;(cria uma barra de rolar para mostrar os conteúdos que nao couberam. Sempre irá criar a barra, mesmo o conteúdo estando ok)
+overflow: auto; (quando o conteúdo passar vai criar uma barra automaticamente)
+
+width: 100%;
+    max-width: 600px; (o máximo)
+    min-width: 0%; (o tamanho)
+    
+    height: 100%;
+    max-height: 100%;
+    min-width: 0%;
+
+    margin: 0 auto;
+
+    overflow-y:  auto;
+
 pode selecionar mais de uma tag por seleção:
 h1, p{
   font-samily: #
