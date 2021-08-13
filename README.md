@@ -329,3 +329,13 @@ propriedades de texto: https://www.w3schools.com/css/css_text.asp
 z-index: 1 (conteúdo vai ficar por cima)
 z-index: 2 (conteúdo vai ficar por baixo)
 z-index: -1 (leva o conteúdo para traz de todos os elementos)
+
+-------------------------------------------------------------------------------
+## @media
+
+link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries
+
+link: https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+
+link: https://devfacts.com/media-queries-breakpoints-2021/
+
