@@ -187,6 +187,8 @@ Nota: É estritamente proíbido aninhar um formulário dentro de outro formulár
 
 link CSS: <link rel="stylesheet" href="./assets/css/style.css">
 
+Unidades de medida: https://www.w3schools.com/cssref/css_units.asp
+
 elemento floate vai usar somente o espaço dele e liberar os demais espaços.
 
 ----------------------------------------------------------------------------
@@ -303,3 +305,27 @@ p{
   font-size: inherit; (Para herdar os atributos)
   color: initial; (para não herdar)
 }
+
+-------------------------------------------------------------------------------
+### Texto
+
+p{
+  font-size: 20px (tamanho da fonte)
+  font-style: italic; (estilo da fonte)
+  fonte-weight: bold;
+  direction: ltr;(direção do texto)
+  letter-spacing: 2px; (espaço entre as letras)
+  world-spacing: 10px; (espaço entre as palavras)
+  line-height: 25px; (altura da linha)
+  text-align: left; (alinhamento do texto)
+  text-decoration: overline (decoração do texto)
+  text-indent: 50px; (espaços nos parágrafos auomaticamente)
+  text-shadow: 2px 2px 2px(esfumaçado) red; (sombra no texto)
+}
+
+propriedades de texto: https://www.w3schools.com/css/css_text.asp
+
+-------------------------------------------------------------------------------
+z-index: 1 (conteúdo vai ficar por cima)
+z-index: 2 (conteúdo vai ficar por baixo)
+z-index: -1 (leva o conteúdo para traz de todos os elementos)
