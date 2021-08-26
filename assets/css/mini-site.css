@@ -3,8 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+}
 .grid{
+    max-width: 1200px;
     padding: 15px;
+    margin: 0 auto;
+    padding-top: 73px;
 }
 .grid::after{
     content: '';
@@ -12,12 +21,11 @@
     clear: both;
 }
 .grid .col{
-    width: 33.33%;
     height: 300px;
     float: left;
     padding: 15px;
 }
-.grid .col .col-content{
+.grid .col-content{
     width: 100%;
     height: 100%;
     background: red;
@@ -27,6 +35,40 @@
     position: fixed;
     background: black;
 }
+.menu ul{
+    list-style: none;
+    display: block;
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+.menu ul li a:hover{
+    background: #333;
+}
+.full-page{
+    max-width: 100%;
+    padding: 0 30px;
+    padding-top: 73px;
+    height: 100vh;
+    background-color: turquoise;
+}
+.full-page-content{
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
 @media all and (max-width: 568px){
     .grid .col{
         width: 100%;
@@ -42,7 +84,7 @@
         width: 33.33%;
     }
 }
-@media all and(min-width: 1200px){
+@media all and (min-width: 1200px){
     .grid .col{
         width: 25%;
     }
@@ -53,13 +95,4 @@
     width: 30vw;
     background-color: chartreuse;
     margin: 15px;
-}
-
-#container{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: row;
-    width: 100vw;
-    flex-wrap: wrap;
 }

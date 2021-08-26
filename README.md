@@ -339,3 +339,6 @@ link: https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
 
 link: https://devfacts.com/media-queries-breakpoints-2021/
 
+-------------------------------------------------------------------------------
+ 
+ scroll-behavior: smooth; (usa-se no CSS para a página ir descendo com animação).
