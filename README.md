@@ -362,6 +362,8 @@ link: https://devfacts.com/media-queries-breakpoints-2021/
 
 link: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox#um_aparte_no_modelo_flex
 
+guia flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
 justify-content: ; está mechendo com o eixo principal
 
 assistir flexbox no curso javaScript

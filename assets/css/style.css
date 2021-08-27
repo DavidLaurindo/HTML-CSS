@@ -3,17 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-.flex-container{
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    align-content: flex-start;
-    background: yellow;
-    height: 640px;
+body{
+    font: sans-serif;
+    font-size: 40px;
 }
-.flex-item{
-    width: 33.33%;
-    color: #fff;
-    background: red;
+.grid{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 30px
+;
+}
+.grid div{
+    background: cadetblue;
+    min-height: 100px;
 }
