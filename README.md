@@ -342,3 +342,36 @@ link: https://devfacts.com/media-queries-breakpoints-2021/
 -------------------------------------------------------------------------------
  
  scroll-behavior: smooth; (usa-se no CSS para a página ir descendo com animação).
+
+ ------------------------------------------------------------------------------
+
+ ### Borda arredondada
+
+ border-top-left-radius: 150px;
+ border-radius: 150px (mesma borda com atalho)
+ ex: border-radius 100px 100px 100px 100px(cima direita baixo e esquerdo)
+
+ border-radius: 50%; (cria um círculo)
+
+ ### sombras no elemento
+
+ box-shadow: 0 0 0 0 blue;
+ ex: box-shadow: -10px 10px 0 0 cor;
+
+## Flex-box
+
+link: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox#um_aparte_no_modelo_flex
+
+justify-content: ; está mechendo com o eixo principal
+
+assistir flexbox no curso javaScript
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+align-item: center;
+align-content: center;
+background: yellow;
+height: 10px;
+
