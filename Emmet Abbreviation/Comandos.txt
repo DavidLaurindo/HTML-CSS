@@ -1,0 +1,12 @@
+! -cria texto já formatado no HTML.
+link:css -cria toda a tag pronta do link CSS no HTML.
+div.classe-um -cria uma div já com a classe.
+div.classe-um.classe-dois -cria uma div com 2 classes prontas.
+div#meu-id -cria um id já formatado.
+div#meu-id.minha-classe.outra-classe -cria um id com 2 classes já prontas.
+div#meu-id.minha-classe{conteúdo} -div com id, classe e já com o conteúdo.
+div.minha-classe{conteúdo}*3 -cria x3 div com conteúdo e classe.
+div#meu-id-$.minha-classe{conteudo $}*3 cria 3 div's($ irá numerar automaticamente. ex: meu-id-1, meu-id-2, meu-id-3.
+ul>li{conteudo $}*10 -cria x10 li's com conteudos numerados.
+
+link com documentação: https://docs.emmet.io/cheat-sheet/
